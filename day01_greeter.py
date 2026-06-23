@@ -12,6 +12,16 @@
 #      :R3.hyphen are not allowed
 #      :R4.can be case sensitive
 #      :R5.no space, key words can not be a variable
+#ans q4: An f-string (formatted string literal) in Python is a way to embed variables or expressions directly inside a string using {}.
+#It makes string formatting simpler and more readable.
+#You create an f-string by putting f (or F) before the quotes.
+#Example with two variables of different types:
+#name = "Ali"      # string
+#age = 20          # integer
+#message = f"My name is {name} and I am {age} years old."
+#print(message)
+#output
+#My name is Ali and I am 20 years old.
 full_name = input("enter your full name please")
 age =int(input("enter your age"))
 internship_goal = input("what are your internship goals")
