@@ -102,7 +102,7 @@ while True:
         view_tasks("DONE")
     elif choice=="7":
         total=len(tasks)
-        done=sum(task["status"]==["done"] for task in tasks )
+        done = sum(task["status"] == "DONE" for task in tasks)
         pending=total-done
         
         print("\n======SUMMARY=====")
