@@ -15,6 +15,20 @@ output of day04_todo.py adding tasks mark 2 as done remove one and quit
 <img width="943" height="661" alt="image" src="https://github.com/user-attachments/assets/31a3124b-ab8b-46aa-be59-2fcd0ef3f66f" />
 <img width="901" height="587" alt="image" src="https://github.com/user-attachments/assets/59017428-7767-4a4f-b0e2-0834018c15c7" />
 <img width="944" height="567" alt="image" src="https://github.com/user-attachments/assets/2ef35fb5-d4ea-4451-863c-5d61d5a8c404" />
+<img width="1166" height="509" alt="image" src="https://github.com/user-attachments/assets/47e00c5c-f255-4b3e-b3d9-3ef68d1bc9e1" />
+output ss of day05_grade traker of student with add 4 stu show top and below theshold 
+<img width="1080" height="647" alt="image" src="https://github.com/user-attachments/assets/4d875eb7-a07b-458e-9895-12dee42a7295" />
+<img width="1033" height="648" alt="image" src="https://github.com/user-attachments/assets/c6735e7f-5dbf-4df0-8ad2-ae9fc785f7a0" />
+<img width="1113" height="649" alt="image" src="https://github.com/user-attachments/assets/6f983330-3427-4732-a87a-969421de67a2" />
+<img width="1083" height="650" alt="image" src="https://github.com/user-attachments/assets/7e01583b-5a73-4f6d-bd27-c88cd5a7e783" />
+<img width="1024" height="272" alt="image" src="https://github.com/user-attachments/assets/bdeddbed-d1a6-4e58-866e-647e17268f6f" />
+
+
+
+
+
+
+
 
 
 
