@@ -22,6 +22,13 @@ output ss of day05_grade traker of student with add 4 stu show top and below the
 <img width="1113" height="649" alt="image" src="https://github.com/user-attachments/assets/6f983330-3427-4732-a87a-969421de67a2" />
 <img width="1083" height="650" alt="image" src="https://github.com/user-attachments/assets/7e01583b-5a73-4f6d-bd27-c88cd5a7e783" />
 <img width="1024" height="272" alt="image" src="https://github.com/user-attachments/assets/bdeddbed-d1a6-4e58-866e-647e17268f6f" />
+output of day06_guesing_game.py
+<img width="878" height="600" alt="image" src="https://github.com/user-attachments/assets/66414918-765e-40bf-9b37-c8107514f6a7" />
+<img width="947" height="596" alt="image" src="https://github.com/user-attachments/assets/0e57cf6c-bc63-4746-b3dd-60e6c80e600f" />
+<img width="849" height="293" alt="image" src="https://github.com/user-attachments/assets/1f48a53d-4f61-441e-8e42-12ce35da94b2" />
+
+
+
 
 
 
