@@ -26,6 +26,19 @@ output of day06_guesing_game.py
 <img width="878" height="600" alt="image" src="https://github.com/user-attachments/assets/66414918-765e-40bf-9b37-c8107514f6a7" />
 <img width="947" height="596" alt="image" src="https://github.com/user-attachments/assets/0e57cf6c-bc63-4746-b3dd-60e6c80e600f" />
 <img width="849" height="293" alt="image" src="https://github.com/user-attachments/assets/1f48a53d-4f61-441e-8e42-12ce35da94b2" />
+output SS of Part A math utiles 
+<img width="1035" height="646" alt="image" src="https://github.com/user-attachments/assets/29730314-9015-41b4-a5ac-c0a994250425" />
+<img width="1064" height="647" alt="image" src="https://github.com/user-attachments/assets/34211a0a-c01c-40ab-ab96-bb34d2dd26e4" />
+<img width="1310" height="556" alt="image" src="https://github.com/user-attachments/assets/2c825345-f711-492b-b5ea-aff58d9ab6b4" />
+output SS of Part B week1_project student card generator
+<img width="1236" height="624" alt="image" src="https://github.com/user-attachments/assets/c85aa343-4c3b-48f5-8bd6-96b235d21ad8" />
+<img width="1243" height="631" alt="image" src="https://github.com/user-attachments/assets/3a1f4e37-d46c-40fe-9b89-3dd6ea043b42" />
+<img width="1135" height="611" alt="image" src="https://github.com/user-attachments/assets/7a5eef11-e25a-4f7d-b642-1f439f4f514f" />
+<img width="1178" height="317" alt="image" src="https://github.com/user-attachments/assets/a8548f3f-a19b-4993-a8b3-6008988d36f5" />
+
+
+
+
 
 
 
