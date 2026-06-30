@@ -34,7 +34,7 @@ def factorial(n):
     result = 1
     for i in range(1, n):
         result *= i
-        return result
+    return result
 def fibonacci(n):
     if n <= 0:
         return []
@@ -100,7 +100,7 @@ while True:
         w=float(input("enter weight in kg"))
         h=float(input("enter height in m"))
         bmi,categore=bmi_calculate(w,h)
-        print(f" BMI: {bmi:2f}, Category: {categore}")
+        print(f" BMI: {bmi:.2f}, Category: {categore}")
     elif choice=="0":
         print("Exit Pro...")
         break
