@@ -35,6 +35,17 @@ output SS of Part B week1_project student card generator
 <img width="1243" height="631" alt="image" src="https://github.com/user-attachments/assets/3a1f4e37-d46c-40fe-9b89-3dd6ea043b42" />
 <img width="1135" height="611" alt="image" src="https://github.com/user-attachments/assets/7a5eef11-e25a-4f7d-b642-1f439f4f514f" />
 <img width="1178" height="317" alt="image" src="https://github.com/user-attachments/assets/a8548f3f-a19b-4993-a8b3-6008988d36f5" />
+output ss of day08_notes app 
+<img width="1125" height="647" alt="image" src="https://github.com/user-attachments/assets/3b016646-c292-47da-abce-0a4e21ce3678" />
+<img width="1099" height="633" alt="image" src="https://github.com/user-attachments/assets/3c65e98d-867f-4c8c-ac71-60262b1a19e6" />
+<img width="1180" height="579" alt="image" src="https://github.com/user-attachments/assets/0e67adba-998d-4317-9b26-0f9e6f23a19a" />
+<img width="1148" height="561" alt="image" src="https://github.com/user-attachments/assets/c7f62430-f819-48fc-b77b-4a9a094303c2" />
+<img width="1215" height="644" alt="image" src="https://github.com/user-attachments/assets/fea1b5e7-88d2-4f2a-bd45-a7feab74356a" />
+
+
+
+
+
 
 
 
