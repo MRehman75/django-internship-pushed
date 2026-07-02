@@ -41,6 +41,9 @@ output ss of day08_notes app
 <img width="1180" height="579" alt="image" src="https://github.com/user-attachments/assets/0e67adba-998d-4317-9b26-0f9e6f23a19a" />
 <img width="1148" height="561" alt="image" src="https://github.com/user-attachments/assets/c7f62430-f819-48fc-b77b-4a9a094303c2" />
 <img width="1215" height="644" alt="image" src="https://github.com/user-attachments/assets/fea1b5e7-88d2-4f2a-bd45-a7feab74356a" />
+day09_bank.py output SS
+<img width="1167" height="588" alt="image" src="https://github.com/user-attachments/assets/7b50a2cc-34ee-48af-984f-811dc16183f6" />
+
 
 
 
