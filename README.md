@@ -43,6 +43,9 @@ output ss of day08_notes app
 <img width="1215" height="644" alt="image" src="https://github.com/user-attachments/assets/fea1b5e7-88d2-4f2a-bd45-a7feab74356a" />
 day09_bank.py output SS
 <img width="1167" height="588" alt="image" src="https://github.com/user-attachments/assets/7b50a2cc-34ee-48af-984f-811dc16183f6" />
+day10_animal.py output ss
+<img width="1011" height="563" alt="image" src="https://github.com/user-attachments/assets/761f403a-cdb0-4666-a1ae-8b9c3c96160e" />
+
 
 
 
