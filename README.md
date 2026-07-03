@@ -45,6 +45,11 @@ day09_bank.py output SS
 <img width="1167" height="588" alt="image" src="https://github.com/user-attachments/assets/7b50a2cc-34ee-48af-984f-811dc16183f6" />
 day10_animal.py output ss
 <img width="1011" height="563" alt="image" src="https://github.com/user-attachments/assets/761f403a-cdb0-4666-a1ae-8b9c3c96160e" />
+da11_ dashboard.py with 6 section
+<img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/2f95f34e-b1fa-4da8-8c40-76f44fe13013" />
+<img width="909" height="350" alt="image" src="https://github.com/user-attachments/assets/3fae1c53-734e-415a-839f-5db1350215c0" />
+
+
 
 
 
