@@ -53,6 +53,57 @@ day_13 git version control
 <img width="1299" height="863" alt="image" src="https://github.com/user-attachments/assets/86cdce21-261b-4e32-a15e-7e56c61dec00" />
 <img width="1353" height="632" alt="image" src="https://github.com/user-attachments/assets/7775bdd6-0899-4085-89f1-869762c9bc4a" />
 <img width="1276" height="573" alt="image" src="https://github.com/user-attachments/assets/7bf1c4df-9a8c-4aa7-ae12-05b914ce48bf" />
+<img width="1421" height="647" alt="image" src="https://github.com/user-attachments/assets/d98fd2aa-84f2-4dcd-a7f1-35cf3e22a031" />
+link of pull request
+https://github.com/MRehman75/django-internship-pushed/pulls?q=is%3Apr+is%3Aclosed
+<img width="945" height="139" alt="image" src="https://github.com/user-attachments/assets/c0851a4b-7e0c-4271-9d96-a8fbdbeced40" />
+/*
+50. Difference between git add, git commit, and git push:
+
+- git add: Stages changes (selects files to include in next commit)
+- git commit: Saves a snapshot of staged changes in local Git history
+- git push: Uploads committed changes from local repo to GitHub (remote repo)
+
+
+51. What is a branch? Why do teams not work directly on main?
+
+- A branch is an independent line of development in Git.
+- It allows developers to work on features or fixes separately.
+- Professionals avoid working directly on main because:
+  - It keeps main stable and production-ready
+  - Prevents broken code from affecting everyone
+  - Enables safe collaboration and testing before merging
+
+
+52. What is a merge conflict? How to resolve it?
+
+- A merge conflict happens when Git cannot automatically combine changes
+  from two branches (same file, same lines modified differently).
+
+How to resolve:
+  - Open conflicted file
+  - Look for conflict markers (<<<<<<, ======, >>>>>>)
+  - Manually choose or combine correct code
+  - Save file
+  - Run:
+      git add <file>
+      git commit
+
+
+53. Difference between git merge and git rebase:
+
+- git merge:
+  - Combines branches and keeps full history
+  - Creates a merge commit
+  - Safe and commonly used in teams
+
+- git rebase:
+  - Moves commits onto another base branch
+  - Creates a linear history (cleaner)
+  - Used for cleaning up local commits before merging
+*/
+
+
 
 
 
