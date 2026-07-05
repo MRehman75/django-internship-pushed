@@ -63,7 +63,7 @@ def generate_report(student_name, grades):
     report.append(f"{'Letter Grade':<25}{grade}")
     report.append("=" * 50)
     
-    return "\n" .join(report),avg
+    return "\n".join(report),avg
 students = []
 
 
@@ -106,7 +106,7 @@ if students:
     
     print(f"Number of Students: {len(students)}")
     print(f"Class Average     : {class_average:.2f}")
-    print(f"Top Students      : {top_students["name"]}({top_students['average']:.2f})")
+    print(f"Top Students      : {top_students['name']}({top_students['average']:.2f})")
     
     print("\n Students who Failed (any subject below 50): ")
     
@@ -125,20 +125,19 @@ def export_to_csv(students, filename="student_report.csv"):
         with open(filename, "w", newline="") as file:
             writer = csv.writer(file)
 
-            writer.writerow(["Name", "Marks", "Grade"])
+            writer.writerow(["Name", "Average", "Subjects"])
 
             for student in students:
                 writer.writerow([
                     student["name"],
-                    student["marks"],
-                    student["grade"]
+                    f"{student['average']:.2f}",
+                    student["grades"]
                 ])
 
         print(f"Student report exported to {filename}")
 
     except OSError as e:
         print(f"Error exporting report: {e}")
-
 
 filename = input("Enter CSV filename (without extension): ").strip()
 
