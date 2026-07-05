@@ -119,6 +119,7 @@ if students:
 print("=" * 60)
 print(f"\nReport Card EXported to:{filename}")
 
+
 def export_to_csv(students, filename="student_report.csv"):
     with open(filename, "w", newline="") as file:
         writer = csv.writer(file)
@@ -134,6 +135,13 @@ def export_to_csv(students, filename="student_report.csv"):
 
     print(f"Student report exported to {filename}")
 
+# Ask the user for a filename
+filename = input("Enter CSV filename (without extension): ").strip()
+
+if not filename:
+    filename = "student_report"
+
+export_to_csv(students, f"{filename}.csv")
     
 
 
