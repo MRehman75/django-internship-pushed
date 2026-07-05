@@ -121,21 +121,25 @@ print(f"\nReport Card EXported to:{filename}")
 
 
 def export_to_csv(students, filename="student_report.csv"):
-    with open(filename, "w", newline="") as file:
-        writer = csv.writer(file)
+    try:
+        with open(filename, "w", newline="") as file:
+            writer = csv.writer(file)
 
-        writer.writerow(["Name", "Marks", "Grade"])
+            writer.writerow(["Name", "Marks", "Grade"])
 
-        for student in students:
-            writer.writerow([
-                student["name"],
-                student["marks"],
-                student["grade"]
-            ])
+            for student in students:
+                writer.writerow([
+                    student["name"],
+                    student["marks"],
+                    student["grade"]
+                ])
 
-    print(f"Student report exported to {filename}")
+        print(f"Student report exported to {filename}")
 
-# Ask the user for a filename
+    except OSError as e:
+        print(f"Error exporting report: {e}")
+
+
 filename = input("Enter CSV filename (without extension): ").strip()
 
 if not filename:
