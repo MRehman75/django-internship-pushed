@@ -1,3 +1,4 @@
+import csv
 from datetime import datetime
 
 def calculate_average(grade):
@@ -65,6 +66,7 @@ def generate_report(student_name, grades):
     return "\n" .join(report),avg
 students = []
 
+
 filename= f"report_{datetime.now().strftime('%Y-%m-%d')}.txt"
 
 with open(filename, "w") as file:
@@ -116,6 +118,21 @@ if students:
         
 print("=" * 60)
 print(f"\nReport Card EXported to:{filename}")
+
+def export_to_csv(students, filename="student_report.csv"):
+    with open(filename, "w", newline="") as file:
+        writer = csv.writer(file)
+
+        writer.writerow(["Name", "Marks", "Grade"])
+
+        for student in students:
+            writer.writerow([
+                student["name"],
+                student["marks"],
+                student["grade"]
+            ])
+
+    print(f"Student report exported to {filename}")
 
     
 
