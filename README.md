@@ -48,6 +48,15 @@ day10_animal.py output ss
 da11_ dashboard.py with 6 section
 <img width="1032" height="587" alt="image" src="https://github.com/user-attachments/assets/2f95f34e-b1fa-4da8-8c40-76f44fe13013" />
 <img width="909" height="350" alt="image" src="https://github.com/user-attachments/assets/3fae1c53-734e-415a-839f-5db1350215c0" />
+day_13 git version control 
+<img width="1271" height="789" alt="image" src="https://github.com/user-attachments/assets/35966fb4-91bb-46aa-9ba5-585264e08c13" />
+<img width="1299" height="863" alt="image" src="https://github.com/user-attachments/assets/86cdce21-261b-4e32-a15e-7e56c61dec00" />
+<img width="1353" height="632" alt="image" src="https://github.com/user-attachments/assets/7775bdd6-0899-4085-89f1-869762c9bc4a" />
+<img width="1276" height="573" alt="image" src="https://github.com/user-attachments/assets/7bf1c4df-9a8c-4aa7-ae12-05b914ce48bf" />
+
+
+
+
 
 
 
