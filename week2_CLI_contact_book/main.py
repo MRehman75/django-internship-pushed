@@ -1,7 +1,7 @@
 from contact import Contact
 from contact_book import ContactBook
 from storage import load_contacts, save_contacts
-from utils import (
+from utiles import (
     validate_name,
     validate_phone,
     validate_email,
@@ -43,6 +43,7 @@ def add_contact(book):
         )
 
         book.add_contact(contact)
+        save_contacts(book.contacts)
         print("Contact added successfully!")
 
     except ValueError as e:
