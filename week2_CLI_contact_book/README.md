@@ -157,3 +157,19 @@ The program is designed to continue running without crashing.
 ## Author
 
 Python Contact Book CLI Project
+<img width="1209" height="600" alt="image" src="https://github.com/user-attachments/assets/cf671ae2-bac4-4d7f-bf9c-ea83c1f2f307" />
+<img width="1254" height="602" alt="image" src="https://github.com/user-attachments/assets/85fa7a4c-b303-4fed-9b81-af970ca8f870" />
+<img width="1232" height="590" alt="image" src="https://github.com/user-attachments/assets/4085a222-b57d-467b-8bcd-571ca82fc0e6" />
+<img width="1218" height="555" alt="image" src="https://github.com/user-attachments/assets/2fd94637-2472-49de-89a7-07709627c9dd" />
+<img width="1238" height="583" alt="image" src="https://github.com/user-attachments/assets/9d767e7b-d218-4f3a-8175-676ef17be441" />
+<img width="1203" height="544" alt="image" src="https://github.com/user-attachments/assets/1b8c6d65-0e89-4af1-974f-d7fc20c9f40c" />
+<img width="940" height="463" alt="image" src="https://github.com/user-attachments/assets/2b586d29-f396-4acb-b6cb-47b2df57f4b5" />
+<img width="1193" height="609" alt="image" src="https://github.com/user-attachments/assets/ace0d83d-b998-40a7-8673-428ef5a68cc7" />
+
+
+
+
+
+
+
+
