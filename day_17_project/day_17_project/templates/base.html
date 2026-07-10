@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>
+        {% block title %}
+        My Website
+        {% endblock %}
+    </title>
+
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+        }
+
+        nav {
+            background: #333;
+            padding: 15px;
+        }
+
+        nav a {
+            color: white;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+
+        .active {
+            color: yellow;
+            font-weight: bold;
+        }
+
+        main {
+            padding: 20px;
+        }
+
+        footer {
+            background: #eee;
+            text-align: center;
+            padding: 15px;
+            margin-top: 40px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <nav>
+        <a href="{% url 'home' %}" class="{% if active_page == 'home' %}active{% endif %}">Home</a>
+
+        <a href="{% url 'about' %}" class="{% if active_page == 'about' %}active{% endif %}">About</a>
+
+        <a href="{% url 'contact' %}" class="{% if active_page == 'contact' %}active{% endif %}">Contact</a>
+
+        <a href="{% url 'posts' %}" class="{% if active_page == 'posts' %}active{% endif %}">Posts</a>
+    </nav>
+
+    <main>
+        {% block content %}
+        {% endblock %}
+    </main>
+
+    <footer>
+        Muhammad Rehman © 2026
+    </footer>
+
+</body>
+
+</html>
