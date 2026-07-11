@@ -38,3 +38,11 @@ hello django
 
 The 'lower' filter converts all text to lowercase.
 """
+<img width="1600" height="632" alt="image" src="https://github.com/user-attachments/assets/f464a742-4fbf-4141-b415-db824b7f97d4" />
+<img width="1600" height="531" alt="image" src="https://github.com/user-attachments/assets/6c5ab699-e54f-47fe-a058-48ba0e54fe65" />
+<img width="1600" height="561" alt="image" src="https://github.com/user-attachments/assets/21dc1f06-9c0c-46b2-af9d-430639416aeb" />
+<img width="1600" height="508" alt="image" src="https://github.com/user-attachments/assets/1ee0fd58-2f5a-44b5-b69d-fe1a1393e846" />
+
+
+
+
