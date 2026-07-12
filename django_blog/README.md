@@ -178,6 +178,57 @@ Django supports different parameter types:
 <img width="1600" height="822" alt="image" src="https://github.com/user-attachments/assets/164f487e-5516-4f1f-899a-e3fa3ed9447b" />
 
 
+"""
+DAY 19  evaluation question answer
+
+Q1. What is the Django admin panel? Who is it for — developers or end users? Explain why.
+
+Answer:
+The Django admin panel is a built-in interface that allows authorized users to manage
+database records through a web browser. It is primarily intended for developers,
+site administrators, and content managers—not for general end users. It provides
+tools to create, update, delete, and search data without writing SQL or building
+custom management pages.
+
+Q2. What is list_editable? What security consideration should you keep in mind when using it?
+
+Answer:
+list_editable is a ModelAdmin option that allows specified fields to be edited
+directly from the admin change list page without opening each object individually.
+It should only be used for fields that trusted admin users are allowed to modify,
+because users with change permission can update those values quickly in bulk.
+Avoid making sensitive fields directly editable unless necessary.
+
+Q3. What is prepopulated_fields? What does it do in practice and what model field does it typically target?
+
+Answer:
+prepopulated_fields automatically fills one field based on the value of another
+field while typing in the admin form. It is commonly used to generate a slug from
+the title of a model. For example:
+prepopulated_fields = {"slug": ("title",)}
+This automatically creates a URL-friendly slug as the title is entered.
+
+Q4. How do you create a custom admin action? What are the required components?
+
+Answer:
+A custom admin action is created by:
+1. Defining a function that accepts three parameters:
+   - modeladmin
+   - request
+   - queryset
+2. Decorating it with @admin.action(description="Action Name") (optional but recommended).
+3. Adding the function to the ModelAdmin using the actions list.
+
+Example:
+@admin.action(description="Mark selected posts as published")
+def mark_selected_posts_as_published(modeladmin, request, queryset):
+    queryset.update(published=True)
+
+class PostAdmin(admin.ModelAdmin):
+    actions = [mark_selected_posts_as_published]
+"""
+
+
 
 
 
