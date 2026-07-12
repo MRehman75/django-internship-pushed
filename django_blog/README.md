@@ -176,6 +176,364 @@ Django supports different parameter types:
 <img width="1594" height="818" alt="image" src="https://github.com/user-attachments/assets/f64defef-6577-4415-95ff-20422915049d" />
 <img width="1600" height="817" alt="image" src="https://github.com/user-attachments/assets/fde1268e-bc9a-4859-adc7-f54a6cb1af34" />
 <img width="1600" height="822" alt="image" src="https://github.com/user-attachments/assets/164f487e-5516-4f1f-899a-e3fa3ed9447b" />
+# Django Blog Project day 18 - Evaluation Answers and Commands
+
+
+========================
+EVALUATION QUESTIONS
+========================
+
+
+1. What is an ORM? What problem does it solve compared to writing raw SQL?
+
+ORM (Object-Relational Mapping) allows developers to interact with the database
+using Python objects instead of writing SQL queries manually.
+
+Django ORM converts Python code into SQL queries automatically.
+
+Example:
+    Post.objects.all()
+
+Advantages:
+- No need to write SQL manually.
+- Easier database management.
+- Reduces SQL errors.
+- Code becomes cleaner and easier to maintain.
+
+
+========================
+
+
+2. Difference between makemigrations and migrate
+
+makemigrations:
+- Creates migration files based on changes in models.py.
+- Prepares database changes.
+
+Command:
+    python manage.py makemigrations
+
+
+migrate:
+- Applies migration files to the database.
+- Creates or updates database tables.
+
+Command:
+    python manage.py migrate
+
+
+If makemigrations is skipped:
+- Django will not create migration files.
+- Database will not know about model changes.
+
+
+If migrate is skipped:
+- Migration files exist, but database tables are not updated.
+
+
+========================
+
+
+3. What is a ForeignKey? What is on_delete?
+
+ForeignKey creates a relationship between two models.
+
+Example:
+
+    category = models.ForeignKey(Category, on_delete=models.CASCADE)
+
+
+It represents a many-to-one relationship:
+
+- One Category can have many Posts.
+- Each Post belongs to one Category.
+
+
+on_delete defines what happens when the related object is deleted.
+
+
+Example:
+
+    models.CASCADE
+
+If a Category is deleted:
+- All related Posts are deleted.
+
+
+Other options:
+
+    models.PROTECT
+
+Prevents deletion if related posts exist.
+
+
+    models.SET_NULL
+
+Sets the ForeignKey value to NULL.
+
+
+========================
+
+
+4. Difference between all(), filter(), and get()
+
+
+Post.objects.all()
+
+Returns all posts from the database.
+
+Example:
+
+    Post.objects.all()
+
+
+--------------------------------
+
+
+Post.objects.filter()
+
+Returns multiple objects matching a condition.
+
+Example:
+
+    Post.objects.filter(published=True)
+
+
+If no object matches:
+Returns an empty QuerySet.
+
+
+--------------------------------
+
+
+Post.objects.get()
+
+Returns exactly one object.
+
+Example:
+
+    Post.objects.get(id=1)
+
+
+get() raises errors:
+
+
+1. DoesNotExist
+
+When no object is found.
+
+Example:
+
+    Post.objects.get(id=999)
+
+
+2. MultipleObjectsReturned
+
+When more than one object matches.
+
+
+Example:
+
+    Post.objects.get(published=True)
+
+
+
+========================
+COMMANDS USED
+========================
+
+
+Create virtual environment:
+
+    python -m venv venv
+
+
+Activate virtual environment:
+
+    venv\Scripts\activate
+
+
+Install Django:
+
+    pip install django
+
+
+Create app:
+
+    python manage.py startapp django_blog
+
+
+Create migrations:
+
+    python manage.py makemigrations
+
+
+Apply migrations:
+
+    python manage.py migrate
+
+
+Run server:
+
+    python manage.py runserver
+
+
+
+========================
+DATABASE VERIFICATION
+========================
+
+
+Open shell:
+
+    python manage.py shell
+
+
+Check database tables:
+
+    from django.db import connection
+
+    connection.introspection.table_names()
+
+
+Exit shell:
+
+    exit()
+
+
+
+========================
+DJANGO SHELL OPERATIONS
+========================
+
+
+Import models:
+
+    from django_blog.models import Category, Post
+    from django.contrib.auth.models import User
+
+
+Create user:
+
+    user = User.objects.create_user(
+        username="admin",
+        password="12345"
+    )
+
+
+Create categories:
+
+    c1 = Category.objects.create(
+        name="Technology",
+        slug="technology",
+        description="Tech articles"
+    )
+
+
+    c2 = Category.objects.create(
+        name="Sports",
+        slug="sports",
+        description="Sports articles"
+    )
+
+
+    c3 = Category.objects.create(
+        name="Education",
+        slug="education",
+        description="Education articles"
+    )
+
+
+Create posts:
+
+    Post.objects.create(
+        title="Python Basics",
+        slug="python-basics",
+        body="Python is easy to learn",
+        author=user,
+        category=c1,
+        published=True
+    )
+
+
+Filter published posts:
+
+    Post.objects.filter(published=True)
+
+
+Get single post:
+
+    Post.objects.get(id=1)
+
+
+Update post:
+
+    post = Post.objects.get(id=1)
+
+    post.title = "Updated Title"
+
+    post.save()
+
+
+Delete post:
+
+    post = Post.objects.get(id=5)
+
+    post.delete()
+
+
+Count posts per category:
+
+    from django.db.models import Count
+
+    Category.objects.annotate(
+        total_posts=Count('post')
+    )
+
+
+Search by keyword:
+
+    Post.objects.filter(
+        body__icontains="python"
+    )
+
+
+
+========================
+TEMPLATE SETUP
+========================
+
+
+Created template:
+
+    templates/home.html
+
+
+Updated settings.py:
+
+    'DIRS': [BASE_DIR / 'templates']
+
+
+Updated view:
+
+    posts = Post.objects.filter(published=True)
+
+    return render(
+        request,
+        "home.html",
+        {"posts": posts}
+    )
+
+
+"""
+<img width="1587" height="769" alt="image" src="https://github.com/user-attachments/assets/6a6af17a-1d00-4d85-85f1-a880655d23b7" />
+<img width="1579" height="859" alt="image" src="https://github.com/user-attachments/assets/03a703d1-b398-4b6b-8957-015f794cce4b" />
+<img width="1547" height="859" alt="image" src="https://github.com/user-attachments/assets/6315ce6e-bd08-4f05-9efa-0e41cfa85c94" />
+<img width="1585" height="858" alt="image" src="https://github.com/user-attachments/assets/7fa06791-44e5-44d1-91ad-8746704f1b70" />
+
+
+
+
 
 
 """
