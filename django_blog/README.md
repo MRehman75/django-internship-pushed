@@ -585,6 +585,13 @@ def mark_selected_posts_as_published(modeladmin, request, queryset):
 class PostAdmin(admin.ModelAdmin):
     actions = [mark_selected_posts_as_published]
 """
+<img width="1586" height="557" alt="image" src="https://github.com/user-attachments/assets/48d16e12-0005-4cc2-a710-fe2271f84ec7" />
+<img width="1600" height="611" alt="image" src="https://github.com/user-attachments/assets/4757e80b-369e-4e5a-acd3-0b2ad46d2fde" />
+<img width="1600" height="652" alt="image" src="https://github.com/user-attachments/assets/059f4a53-c739-4487-9d97-daa06971cade" />
+<img width="1600" height="682" alt="image" src="https://github.com/user-attachments/assets/e79f4f2c-290f-4482-9d30-21d9967a74e5" />
+<img width="1599" height="514" alt="image" src="https://github.com/user-attachments/assets/fcfdf594-6dcc-4fe8-b088-d0ea988018cf" />
+
+
 
 
 
